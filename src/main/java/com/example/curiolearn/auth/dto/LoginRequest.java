@@ -1,4 +1,4 @@
-package com.example.curiolearn.user.dto;
+package com.example.curiolearn.auth.dto;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -12,7 +12,7 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginRequestDto {
+public class LoginRequest {
     @Email(message = "Invalid email format")
     @NotBlank(message = "Email is required")
     private String email;

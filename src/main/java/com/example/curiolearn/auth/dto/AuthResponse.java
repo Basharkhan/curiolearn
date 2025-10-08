@@ -1,4 +1,4 @@
-package com.example.curiolearn.user.dto;
+package com.example.curiolearn.auth.dto;
 
 import lombok.*;
 
